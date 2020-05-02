@@ -31,7 +31,7 @@ def get_checksums():
     """
     Get the checksum for all files in the current directory
     """
-    print ("Expected = [")
+    print ("expected = [")
     with os.scandir(".") as it:
         for entry in it:
             if entry.is_file():
